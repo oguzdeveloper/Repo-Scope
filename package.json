@@ -1,0 +1,23 @@
+{
+  "name": "reposcope",
+  "version": "1.0.0",
+  "description": "GitHub repository analyzer and project suggester powered by AI",
+  "main": "src/index.js",
+  "bin": {
+    "reposcope": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": ["github", "ai", "analyzer", "cli", "deepseek"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}
